@@ -6,7 +6,9 @@ import { createStructuredSelector } from "reselect";
 import HomePage from "./pages/homepage/homepage.component";
 import Header from "./components/header/header.component";
 import ShopPage from "./pages/shop/shop.component";
+import CheckoutPage from "../src/pages/checkout/checkout.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
+
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUser } from "./redux/user/user.actions";
 import { selectCurentUser } from "./redux/user/user.selectors";
@@ -43,6 +45,7 @@ class App extends React.Component {
 				<Switch>
 					<Route exact path="/" component={HomePage} />
 					<Route path="/shop" component={ShopPage} />
+					<Route exact path="/checkout" component={CheckoutPage} />
 					<Route
 						exact
 						path="/signin"
@@ -54,6 +57,7 @@ class App extends React.Component {
 							)
 						}
 					/>
+					<Route exact path="/checkout" component={CheckoutPage} />
 				</Switch>
 			</div>
 		);
