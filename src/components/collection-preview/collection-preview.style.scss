@@ -12,4 +12,16 @@
 		display: flex;
 		justify-content: space-between;
 	}
+
+	//.preview:after {
+	//	position: absolute;
+	//	top: 0;
+	//	bottom: 1px;
+	//	right: 0;
+	//	display: block;
+	//	width: 100px;
+	//	pointer-events: none;
+	//	content: "";
+	//	background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,#fff 95%,#fff);
+	//}
 }

@@ -1,36 +1,36 @@
 const INITIAL_STATE = {
 	sections: [
 		{
-			title: "hats",
-			imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+			title: "appetizer",
+			imageUrl: "https://i.ibb.co/C1wJyp0/drew-beamer-FUuts51p47-E-unsplash.jpg",
 			id: 1,
-			linkUrl: "shop/hats"
+			linkUrl: "shop/appetizers"
 		},
 		{
-			title: "jackets",
-			imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+			title: "breakfast",
+			imageUrl: "https://i.ibb.co/3yhQwyR/maria-labanda-t-G0-Fdjr-H0-E-unsplash.jpg",
 			id: 2,
-			linkUrl: "shop/jackets"
+			linkUrl: "shop/breakfast"
 		},
 		{
-			title: "sneakers",
-			imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+			title: "burgers",
+			imageUrl: "https://i.ibb.co/PTzYqXv/amirali-mirhashemian-j-MPEw-H9-LM4-unsplash.jpg",
 			id: 3,
-			linkUrl: "shop/sneakers"
+			linkUrl: "shop/burgers"
 		},
 		{
-			title: "womens",
-			imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+			title: "salads",
+			imageUrl: "https://i.ibb.co/RDHjfkB/alina-chernysheva-oj2h-Bf5-TOFM-unsplash.jpg",
 			size: "large",
 			id: 4,
-			linkUrl: "shop/womens"
+			linkUrl: "shop/salads"
 		},
 		{
-			title: "mens",
-			imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+			title: "desserts",
+			imageUrl: "https://i.ibb.co/BVYTSWX/after-emile-mbunzama-c-Lpd-EA23-Z44-unsplash.png",
 			size: "large",
 			id: 5,
-			linkUrl: "shop/mens"
+			linkUrl: "shop/desserts"
 		}
 	]
 };

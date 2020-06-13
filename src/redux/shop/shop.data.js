@@ -1,246 +1,246 @@
 const SHOP_DATA = [
 	{
 	  id: 1,
-	  title: 'Hats',
-	  routeName: 'hats',
+	  title: 'Appetizer',
+	  routeName: 'appetizers',
 	  items: [
 		{
 		  id: 1,
-		  name: 'Brown Brim',
-		  imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-		  price: 25
+		  name: 'Falafel',
+		  imageUrl: 'https://i.ibb.co/hVMhv2t/louis-hansel-shotsoflouis-B1-Iu-Px-UOk-H4-unsplash.jpg',
+		  price: 14
 		},
 		{
 		  id: 2,
-		  name: 'Blue Beanie',
-		  imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-		  price: 18
+		  name: 'Sushi Roll',
+		  imageUrl: 'https://i.ibb.co/cYbkGPK/louis-hansel-shotsoflouis-w-Xk-Gv-QJWI-Y-unsplash.jpg',
+		  price: 15
 		},
 		{
 		  id: 3,
-		  name: 'Brown Cowboy',
-		  imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-		  price: 35
+		  name: 'Cheese Fingers',
+		  imageUrl: 'https://i.ibb.co/CHztwV1/clint-bustrillos-c6-J2thg8k04-unsplash.jpg',
+		  price: 12
 		},
 		{
 		  id: 4,
-		  name: 'Grey Brim',
-		  imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-		  price: 25
+		  name: 'Mini Quiche',
+		  imageUrl: 'https://i.ibb.co/3kK5Xxm/hillary-ungson-n9xsu46-NGa-E-unsplash.jpg',
+		  price: 13
 		},
 		{
 		  id: 5,
-		  name: 'Green Beanie',
-		  imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-		  price: 18
+		  name: 'Caprese Salad',
+		  imageUrl: 'https://i.ibb.co/WWJ3BLY/markus-spiske-GM0-Zvw3-Pz-Y-unsplash.jpg',
+		  price: 15
 		},
 		{
 		  id: 6,
-		  name: 'Palm Tree Cap',
-		  imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-		  price: 14
+		  name: 'Gyozas',
+		  imageUrl: 'https://i.ibb.co/YTRvKQM/mae-mu-n-GTDXf6-NM-I-unsplash.jpg',
+		  price: 12
 		},
 		{
 		  id: 7,
-		  name: 'Red Beanie',
-		  imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-		  price: 18
+		  name: 'Tuna Stack',
+		  imageUrl: 'https://i.ibb.co/BT9VpsZ/monstruo-estudio-df-It-ZYL3q-I0-unsplash.jpg',
+		  price: 10
 		},
 		{
 		  id: 8,
-		  name: 'Wolf Cap',
-		  imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-		  price: 14
+		  name: 'Super Nachos',
+		  imageUrl: 'https://i.ibb.co/PFj1zz7/louis-hansel-shotsoflouis-h1-Uur-Xw0-Yck-unsplash.jpg',
+		  price: 17
 		},
 		{
 		  id: 9,
-		  name: 'Blue Snapback',
-		  imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-		  price: 16
+			name: 'Chicken Wings',
+			imageUrl: 'https://i.ibb.co/C1wJyp0/drew-beamer-FUuts51p47-E-unsplash.jpg',
+		  price: 12
 		}
 	  ]
 	},
 	{
 	  id: 2,
-	  title: 'Sneakers',
-	  routeName: 'sneakers',
+	  title: 'Breakfast',
+	  routeName: 'breakfast',
 	  items: [
 		{
 		  id: 10,
-		  name: 'Adidas NMD',
-		  imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-		  price: 220
+		  name: 'Pancakes',
+		  imageUrl: 'https://i.ibb.co/nrPmhz0/calum-lewis-8-Nc-o-Qsc2q-Q-unsplash.jpg',
+		  price: 12
 		},
 		{
 		  id: 11,
-		  name: 'Adidas Yeezy',
-		  imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-		  price: 280
+		  name: 'Power Bowl',
+		  imageUrl: 'https://i.ibb.co/wrNXfvC/joseph-gonzalez-fdl-ZBWIP0a-M-unsplash.jpg',
+		  price: 11
 		},
 		{
 		  id: 12,
-		  name: 'Black Converse',
-		  imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-		  price: 110
+		  name: 'Egg Toasts',
+		  imageUrl: 'https://i.ibb.co/1XzR1TZ/ben-kolde-FFq-NATH27-EM-unsplash.jpg',
+		  price: 11
 		},
 		{
 		  id: 13,
-		  name: 'Nike White AirForce',
-		  imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-		  price: 160
+		  name: 'Bacon Eggs',
+		  imageUrl: 'https://i.ibb.co/85MnLYc/eiliv-sonas-aceron-An6c-Tgm-C8yk-unsplash.jpg',
+		  price: 14
 		},
 		{
 		  id: 14,
-		  name: 'Nike Red High Tops',
-		  imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-		  price: 160
+		  name: 'French Toasts',
+		  imageUrl: 'https://i.ibb.co/tMg2g4y/joseph-gonzalez-zc-Ugjyq-Ewe8-unsplash-1.jpg',
+		  price: 14
 		},
 		{
 		  id: 15,
-		  name: 'Nike Brown High Tops',
-		  imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-		  price: 160
+		  name: 'Veggie Eggs',
+		  imageUrl: 'https://i.ibb.co/wyqP7Fm/chris-ralston-09-HGd-Zzk-P-Q-unsplash.jpg',
+		  price: 13
 		},
 		{
 		  id: 16,
-		  name: 'Air Jordan Limited',
-		  imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-		  price: 190
+		  name: 'Oatmeal Bowl',
+		  imageUrl: 'https://i.ibb.co/1XdhMv7/alex-motoc-v77vc1i-AK18-unsplash.jpg',
+		  price: 7
 		},
 		{
 		  id: 17,
-		  name: 'Timberlands',
-		  imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-		  price: 200
+		  name: 'Turkey Croissant',
+		  imageUrl: 'https://i.ibb.co/3yhQwyR/maria-labanda-t-G0-Fdjr-H0-E-unsplash.jpg',
+		  price: 13
 		}
 	  ]
 	},
 	{
 	  id: 3,
-	  title: 'Jackets',
-	  routeName: 'jackets',
+	  title: 'burgers',
+	  routeName: 'burgers',
 	  items: [
 		{
 		  id: 18,
-		  name: 'Black Jean Shearling',
-		  imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-		  price: 125
+		  name: 'Classic Burger',
+		  imageUrl: 'https://i.ibb.co/D9CLRHg/food-photographer-david-fedulov-E94j3r-Mcxlw-unsplash.jpg',
+		  price: 15
 		},
 		{
 		  id: 19,
-		  name: 'Blue Jean Jacket',
-		  imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-		  price: 90
+		  name: 'Porto Burger',
+		  imageUrl: 'https://i.ibb.co/MDqqtPz/andre-noboa-v-Ed-Dm-Pd-To-BM-unsplash.jpg',
+		  price: 17
 		},
 		{
 		  id: 20,
-		  name: 'Grey Jean Jacket',
-		  imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-		  price: 90
+		  name: 'Pollo Burger',
+		  imageUrl: 'https://i.ibb.co/yPJ7DHw/dilyara-garifullina-i-TGi5q-QHPM-unsplash.jpg',
+		  price: 15
 		},
 		{
 		  id: 21,
-		  name: 'Brown Shearling',
-		  imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-		  price: 165
+		  name: 'Green Stack',
+		  imageUrl: 'https://i.ibb.co/8rwJbXp/vicky-ng-x-Ta-Tm8e-Foe4-unsplash.jpg',
+		  price: 14
 		},
 		{
 		  id: 22,
-		  name: 'Tan Trench',
-		  imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-		  price: 185
+		  name: 'Monster Burger',
+		  imageUrl: 'https://i.ibb.co/PTzYqXv/amirali-mirhashemian-j-MPEw-H9-LM4-unsplash.jpg',
+		  price: 18
 		}
 	  ]
 	},
 	{
 	  id: 4,
-	  title: 'Womens',
-	  routeName: 'womens',
+	  title: 'Salads',
+	  routeName: 'salads',
 	  items: [
 		{
 		  id: 23,
-		  name: 'Blue Tanktop',
-		  imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-		  price: 25
+		  name: 'Salmon Salad',
+		  imageUrl: 'https://i.ibb.co/FnF7Z9x/anh-nguyen-kc-A-c3f-3-FE-unsplash.jpg',
+		  price: 17
 		},
 		{
 		  id: 24,
-		  name: 'Floral Blouse',
-		  imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-		  price: 20
+		  name: 'Fresh Spring',
+		  imageUrl: 'https://i.ibb.co/FKmfH1Z/dovile-ramoskaite-x-X9-Smq-QCb-FY-unsplash.jpg',
+		  price: 15
 		},
 		{
 		  id: 25,
-		  name: 'Floral Dress',
-		  imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-		  price: 80
+		  name: 'Grenish Bowl',
+		  imageUrl: 'https://i.ibb.co/N39fb4Y/nadine-primeau-ft-Wfohtj-Nw-unsplash.jpg',
+		  price: 15
 		},
 		{
 		  id: 26,
-		  name: 'Red Dots Dress',
-		  imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-		  price: 80
+		  name: 'Asian Bowl',
+		  imageUrl: 'https://i.ibb.co/8b5tn41/eiliv-sonas-aceron-Zu-IDLSz3-XLg-unsplash.jpg',
+		  price: 15
 		},
 		{
 		  id: 27,
-		  name: 'Striped Sweater',
-		  imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-		  price: 45
+		  name: 'Tropical',
+		  imageUrl: 'https://i.ibb.co/TYzPgS8/rebeca-g-sendroiu-Et-ANw-Y5-TXJY-unsplash.jpg',
+		  price: 19
 		},
 		{
 		  id: 28,
-		  name: 'Yellow Track Suit',
-		  imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-		  price: 135
+		  name: 'Pollo Salad',
+		  imageUrl: 'https://i.ibb.co/7vRKJW5/nadine-primeau-n4-Rrgczk-LJM-unsplash.jpg',
+		  price: 17
 		},
 		{
 		  id: 29,
-		  name: 'White Blouse',
-		  imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-		  price: 20
+		  name: 'Ocean Breeze',
+		  imageUrl: 'https://i.ibb.co/RDHjfkB/alina-chernysheva-oj2h-Bf5-TOFM-unsplash.jpg',
+		  price: 18
 		}
 	  ]
 	},
 	{
 	  id: 5,
-	  title: 'Mens',
+	  title: 'Desserts',
 	  routeName: 'mens',
 	  items: [
-		{
+			{
 		  id: 30,
-		  name: 'Camo Down Vest',
-		  imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-		  price: 325
+		  name: 'Chocolate Cake',
+		  imageUrl: 'https://i.ibb.co/MVT0w5n/will-echols-P-l1b-JQp-QF0-unsplash.png',
+		  price: 9
 		},
 		{
 		  id: 31,
-		  name: 'Floral T-shirt',
-		  imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-		  price: 20
+		  name: 'Tiramisu',
+		  imageUrl: 'https://i.ibb.co/SNz9W5p/after-anthony-espinosa-6iqp-LKqea-E0-unsplash.png',
+		  price: 8
 		},
 		{
 		  id: 32,
-		  name: 'Black & White Longsleeve',
-		  imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-		  price: 25
+		  name: 'Chocolate Cookie',
+		  imageUrl: 'https://i.ibb.co/1X1Zz3Y/after-jennifer-pallian-Ofd-Diqx8-Cz8-unsplash.png',
+		  price: 5
 		},
 		{
 		  id: 33,
-		  name: 'Pink T-shirt',
-		  imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-		  price: 25
+		  name: 'Apple Pie',
+		  imageUrl: 'https://i.ibb.co/HYghv9B/after-dilyara-garifullina-i-LSc-UZaf-Bzc-unsplash.png',
+		  price: 7
 		},
 		{
-		  id: 34,
-		  name: 'Jean Long Sleeve',
-		  imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-		  price: 40
+			id: 34,
+			name: 'House Doughnut',
+			imageUrl: 'https://i.ibb.co/M9qpych/after-kobby-mendez-q54-Oxq44-MZs-unsplash.png',
+			price: 25
 		},
 		{
 		  id: 35,
-		  name: 'Burgundy T-shirt',
-		  imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-		  price: 25
+		  name: 'Oreo Milkshake',
+		  imageUrl: 'https://i.ibb.co/BVYTSWX/after-emile-mbunzama-c-Lpd-EA23-Z44-unsplash.png',
+		  price: 12
 		}
 	  ]
 	}

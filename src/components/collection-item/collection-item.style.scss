@@ -5,15 +5,21 @@
 	height: 350px;
 	align-items: center;
 	position: relative;
+
 	// overflow: hidden;
 
-	.image {
+	.image-container {
 		width: 100%;
-		height: 95%;
-		background-size: cover;
-		background-position: center;
-		margin-bottom: 5px;
+		height: 90%;
+		//padding-right: 15px;
+		align-items: center;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
 	}
+
 
 	.custom-button {
 		width: 80%;
@@ -23,6 +29,9 @@
 		display: none;
 	}
 	&:hover {
+
+		border: 2px solid black;
+
 		.image {
 			opacity: 0.8;
 			// transform: scale(1.2);
