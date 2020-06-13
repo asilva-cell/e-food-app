@@ -1,11 +1,9 @@
 .custom-button {
-	min-width: 165px;
-	width: auto;
-	height: 50px;
+	width: max-content;
+	height: max-content;
 	letter-spacing: 0.5px;
-	line-height: 50px;
-	padding: 0 20px 0 20px;
-	font-size: 15px;
+
+	padding: 0 2% 0 2%;
 	background-color: black;
 	color: white;
 	text-transform: uppercase;
@@ -15,6 +13,7 @@
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
+	text-align: center;
 
 	&:hover {
 		background-color: white;
