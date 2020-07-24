@@ -1,0 +1,13 @@
+$screen-lg-min: 500px;
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+.shop-page {
+  margin: auto;
+  @include lg {
+    width: 80%;
+  }
+}
