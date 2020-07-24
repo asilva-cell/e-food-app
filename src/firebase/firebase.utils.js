@@ -1,4 +1,4 @@
-import firebase from "firebase/app"; //always neew the keyword firebase import first
+import firebase from "firebase/app"; //always need the keyword firebase import first
 import "firebase/firestore"; //after import what you need
 import "firebase/auth";
 
