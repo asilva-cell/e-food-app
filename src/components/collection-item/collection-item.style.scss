@@ -1,67 +1,81 @@
+// large screens
+$screen-lg-min: 500px;
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
 .collection-item {
-	width: 22%;
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-	align-items: center;
-	position: relative;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 
-	// overflow: hidden;
+  .image-container {
+    width: auto;
+    height: 120px;
+    align-items: center;
+    margin-bottom: 5%;
 
-	.image-container {
-		width: 100%;
-		min-height: 80%;
-		//padding-right: 15px;
-		align-items: center;
-		margin-bottom: 10%;
+    @include lg {
+      height: 400px;
+      margin-bottom: 2%;
+    }
 
-		img {
-			width: 100%;
-			height: 100%;
-			margin-bottom: 5%;
-		}
-	}
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+  }
 
+  .custom-button {
+    width: 80%;
+    opacity: 0.7;
+    position: absolute;
+    top: 60%;
+    display: none;
+  }
+  &:hover {
+    .image {
+      opacity: 0.8;
+      transform: scale(1.2);
+      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+    .custom-button {
+      display: flex;
+      opacity: 0.85;
+    }
+  }
 
-	.custom-button {
-		width: 80%;
-		opacity: 0.7;
-		position: absolute;
-		top: 60%;
-		display: none;
-	}
-	&:hover {
+  .collection-footer {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+    padding: 0 2% 0 2%;
+    font-size: 0.8rem;
 
-		.image {
-			opacity: 0.8;
-			transform: scale(1.2);
-			// transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-		}
-		.custom-button {
-			display: flex;
-			opacity: 0.85;
-		}
-	}
+    @include lg {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      font-size: 1rem;
+      height: 30px;
+    }
 
-	.collection-footer {
-		width: 100%;
-		display: grid;
-		justify-content: center;
-		align-content: center;
-		padding: 0 2% 0 2%;
+    .name {
+      width: fit-content;
+      justify-self: center;
+      text-align: center;
+    }
 
-		.name {
-			width: fit-content;
-			margin: 2%;
-			justify-self: center;
-			text-align: center;
-
-		}
-
-		.price {
-			width: fit-content;
-			justify-self: center;
-			text-align: center;
-		}
-	}
+    .price {
+      width: fit-content;
+      justify-self: center;
+      text-align: center;
+    }
+  }
 }

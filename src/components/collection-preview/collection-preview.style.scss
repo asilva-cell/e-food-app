@@ -1,27 +1,22 @@
+// large screens
+$screen-lg-min: 500px;
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
 .collection-preview {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
 
-	.title {
-		font-size: 28px;
-		margin-bottom: 25px;
-	}
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
 
-	.preview {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	//.preview:after {
-	//	position: absolute;
-	//	top: 0;
-	//	bottom: 1px;
-	//	right: 0;
-	//	display: block;
-	//	width: 100px;
-	//	pointer-events: none;
-	//	content: "";
-	//	background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,#fff 95%,#fff);
-	//}
+  .preview {
+    display: flex;
+    justify-content: space-between;
+  }
 }
