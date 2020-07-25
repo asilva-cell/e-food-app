@@ -15,11 +15,11 @@ import "./header.style.scss";
 
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
-    <Link className="logo-container" to="/e-food-app">
+    <Link className="logo-container" to="/e-food-app/">
       <Logo className="logo" />
     </Link>
     <div className="options">
-      <Link className="option" to="/shop">
+      <Link className="option" to="/e-food-app/shop">
         MENU
       </Link>
       <Link className="option" to="/contact">

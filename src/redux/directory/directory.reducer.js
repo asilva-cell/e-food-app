@@ -5,7 +5,7 @@ const INITIAL_STATE = {
       imageUrl:
         "https://i.ibb.co/C1wJyp0/drew-beamer-FUuts51p47-E-unsplash.jpg",
       id: 1,
-      linkUrl: "e-food-app/appetizer",
+      linkUrl: "shop/appetizers",
     },
     {
       title: "breakfast",
