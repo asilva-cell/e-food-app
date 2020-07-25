@@ -6,7 +6,7 @@ import "./under-construcion.style.scss"
 const UnderConstruction = () => (
   <div className="construction">
     <Construction />
-    <span>Under Counstrucion </span>
+    <span>Under Construction </span>
   </div>
 );
 

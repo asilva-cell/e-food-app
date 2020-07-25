@@ -3,7 +3,6 @@ const SHOP_DATA = [
 	  id: 1,
 	  title: 'Breakfast',
 	  routeName: 'hats',
-
 	  items: [
 		{
 		  id: 1,

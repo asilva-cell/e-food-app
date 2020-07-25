@@ -2,7 +2,7 @@ const SHOP_DATA = [
 	{
 	  id: 1,
 	  title: 'Appetizer',
-	  routeName: 'appetizers',
+	  routeName: 'appetizer',
 	  items: [
 		{
 		  id: 1,

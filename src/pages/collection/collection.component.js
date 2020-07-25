@@ -4,9 +4,10 @@ import CollectionItem from "../../components/collection-item/collection-item.com
 import "./collection.style.scss";
 
 const CollectionPage = ({ match }) => {
-	console.log(match.params.collectionId);
+	console.log(match);
 	return (
 		<div className="collection-page">
+			<h1>collection page</h1>
 			<h2>{`${match.params.collectionId.toUpperCase()} PAGE FOR NOW`}</h2>
 		</div>
 	);
