@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ca48315e2188e8d60f948d4bd275c3e",
+    "revision": "b41b158471ffca573fc35ab2cad1854d",
     "url": "/e-food-app/index.html"
   },
   {
-    "revision": "fcbb2946ac821a207c1f",
-    "url": "/e-food-app/static/css/main.1873b21a.chunk.css"
+    "revision": "1925cef96e6e9e26ba7a",
+    "url": "/e-food-app/static/css/main.701235cf.chunk.css"
   },
   {
     "revision": "3a20ff6fa4f51b8ac008",
@@ -16,16 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/e-food-app/static/js/2.0c7bd42e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcbb2946ac821a207c1f",
-    "url": "/e-food-app/static/js/main.764340c5.chunk.js"
+    "revision": "1925cef96e6e9e26ba7a",
+    "url": "/e-food-app/static/js/main.d16a9f8a.chunk.js"
   },
   {
     "revision": "df6fa689681c9d1aea29",
     "url": "/e-food-app/static/js/runtime-main.77a1183e.js"
   },
   {
-    "revision": "ed28accb7dd58a0469bff983503ff07e",
-    "url": "/e-food-app/static/media/logo.ed28accb.svg"
+    "revision": "aca66a305806bb333cafe3d2c3f633a1",
+    "url": "/e-food-app/static/media/construction.aca66a30.svg"
+  },
+  {
+    "revision": "f4c10aed06af7993ec170534141a2b09",
+    "url": "/e-food-app/static/media/logo.f4c10aed.svg"
   },
   {
     "revision": "30f0707118fb960665491424c115ac44",
