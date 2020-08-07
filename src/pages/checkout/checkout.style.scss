@@ -27,22 +27,22 @@ $screen-lg-min: 500px;
       font-weight: bold;
       font-size: 0.8rem;
       width: 23%;
-	  padding-left: 3%;
-	  @include lg {
-		font-size: 1rem;
-		padding-left: 0%;
-		text-align: center;
-	  }
+      padding-left: 3%;
+      @include lg {
+        font-size: 1rem;
+        padding-left: 0%;
+        text-align: center;
+      }
       &:last-child {
         text-align: center;
         width: auto;
-		padding-left: 0;
-		// margin-right: 2%;
-		@include lg {
-			width:8%;
-			margin-right: 0%;
-			text-align: start;
-		  }
+        padding-left: 0;
+        // margin-right: 2%;
+        @include lg {
+          width: 8%;
+          margin-right: 0%;
+          text-align: start;
+        }
       }
     }
   }
@@ -50,6 +50,18 @@ $screen-lg-min: 500px;
   .total {
     margin-top: 5%;
     margin-left: auto;
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  button {
+    margin-left: auto;
+    margin-top: 2%;
+  }
+
+  .test-warning {
+    text-align: center;
+    color: red;
+    font-size: 1rem;
+    margin: 2%;
   }
 }
