@@ -34,3 +34,10 @@ For more information go to [firebase documentation](https://firebase.google.com/
 Set the publishableKey in stripe-button.component.jsx to your own publishable_key value in your stripe dashboard.
 
 For more information go to [stripe documentation - quick start](https://stripe.com/docs/development/quickstart)
+
+### `Heroku deployment`
+
+To deploy to Heroku [Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack)
+
+Replace $APP_NAME with the name for your unique app.
+<heroku create $app_name --buildpack https://github.com/mars/create-react-app>
