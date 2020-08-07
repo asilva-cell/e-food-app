@@ -1,16 +1,28 @@
 import React from "react";
+import { connect } from "react-redux";
 
-import UnderConstruction from "../../components/under-construction/under-construction.component";
+import { selectCollection } from "../../redux/shop/shop.selectors";
+
+import CollectionItem from "../../components/collection-item/collection-item.component";
+
 import "./collection.style.scss";
 
-const CollectionPage = ({ match }) => {
-  console.log(match);
+const CollectionPage = ({ collection }) => {
+  const { title, items } = collection;
   return (
     <div className="collection-page">
-      <UnderConstruction />
-      <h2>{`${match.params.collectionId.toUpperCase()}: Please check the menu tab.`}</h2>
+      <h2 className="title">{title.toUpperCase()}</h2>
+      <div className="items">
+        {items.map((item) => (
+          <CollectionItem key={item.id} item={item} />
+        ))}
+      </div>
     </div>
   );
 };
 
-export default CollectionPage;
+const mapStateToProps = (state, ownProps) => ({
+  collection: selectCollection(ownProps.match.params.collectionId)(state),
+});
+
+export default connect(mapStateToProps)(CollectionPage);

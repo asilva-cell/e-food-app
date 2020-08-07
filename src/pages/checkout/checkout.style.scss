@@ -1,36 +1,55 @@
+$screen-lg-min: 500px;
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
 .checkout-page {
-	width: 100%;
-	min-height: 90vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 10% auto 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% auto 0;
 
-	.checkout-header {
-		width: 100%;
-		padding-bottom: 2%;
-		display: flex;
-		justify-content: flex-end;
-		border-bottom: 1px solid darkgrey;
+  @include lg {
+    width: 80%;
+  }
 
-		.header-block {
-			font-weight: bold;
-			font-size: 0.8rem;
-			width: 23%;
+  .checkout-header {
+    width: 100%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid darkgrey;
+
+    .header-block {
+      font-weight: bold;
+      font-size: 0.8rem;
+      width: 23%;
+	  padding-left: 3%;
+	  @include lg {
+		font-size: 1rem;
+		padding-left: 0%;
+		text-align: center;
+	  }
+      &:last-child {
+        text-align: center;
+        width: auto;
+		padding-left: 0;
+		// margin-right: 2%;
+		@include lg {
+			width:8%;
+			margin-right: 0%;
 			text-align: start;
-			padding-left: 3%;
-			&:last-child {
-				text-align: center;
-				width: 8%;
-				padding-left: 0;
-				margin-right: 2%;
-			}
-		}
-	}
+		  }
+      }
+    }
+  }
 
-	.total {
-		margin-top: 5%;
-		margin-left: auto;
-		font-size: 2rem;
-	}
+  .total {
+    margin-top: 5%;
+    margin-left: auto;
+    font-size: 2rem;
+  }
 }

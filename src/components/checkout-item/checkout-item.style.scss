@@ -6,9 +6,6 @@ $screen-lg-min: 500px;
 }
 
 .checkout-item {
-  @include lg {
-    height: 250px;
-  }
   width: 100%;
   height: 100px;
   display: flex;
@@ -16,8 +13,12 @@ $screen-lg-min: 500px;
   padding: 15px 0;
   align-items: center;
 
+  @include lg {
+    height: 250px;
+  }
+
   .image-container {
-    width: 23%;
+    width: 21%;
     height: 90%;
     margin-right: 2%;
     border-radius: 10px;
@@ -34,10 +35,17 @@ $screen-lg-min: 500px;
     width: 23%;
     font-size: 0.8rem;
   }
+  
+  .quantity,
+  .price {
+    @include lg {
+      display: flex;
+      justify-content: center;
+    }
+  }
 
   .quantity {
     display: flex;
-
     .arrow {
       cursor: pointer;
     }
@@ -47,6 +55,10 @@ $screen-lg-min: 500px;
   }
 
   .remove-button {
+    width: 8%;
     cursor: pointer;
+    @include lg {
+      text-align: center;
+    }
   }
 }

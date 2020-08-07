@@ -1,8 +1,8 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  appetizers : {
     id: 1,
-    title: "Appetizer",
-    routeName: "appetizer",
+    title: "Appetizers",
+    routeName: "appetizers",
     items: [
       {
         id: 1,
@@ -66,20 +66,15 @@ const SHOP_DATA = [
           "https://i.ibb.co/C1wJyp0/drew-beamer-FUuts51p47-E-unsplash.jpg",
         price: 12,
       },
+      
     ],
   },
-  {
+  breakfast: {
     id: 2,
     title: "Breakfast",
     routeName: "breakfast",
     items: [
-      {
-        id: 10,
-        name: "Pancakes",
-        imageUrl:
-          "https://i.ibb.co/nrPmhz0/calum-lewis-8-Nc-o-Qsc2q-Q-unsplash.jpg",
-        price: 12,
-      },
+     
       {
         id: 11,
         name: "Power Bowl",
@@ -131,9 +126,9 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  burgers : {
     id: 3,
-    title: "burgers",
+    title: "Burgers",
     routeName: "burgers",
     items: [
       {
@@ -173,7 +168,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  salads : {
     id: 4,
     title: "Salads",
     routeName: "salads",
@@ -229,10 +224,10 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  desserts: {
     id: 5,
     title: "Desserts",
-    routeName: "mens",
+    routeName: "desserts",
     items: [
       {
         id: 30,
@@ -278,6 +273,6 @@ const SHOP_DATA = [
       },
     ],
   },
-];
+};
 
 export default SHOP_DATA;

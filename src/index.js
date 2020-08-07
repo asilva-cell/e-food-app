@@ -10,12 +10,12 @@ import App from "./App";
 import "./index.css";
 
 ReactDOM.render(
-	<Provider store={store}>
-		<BrowserRouter>
-			<PersistGate persistor={persistor}>
-				<App />
-			</PersistGate>
-		</BrowserRouter>
-	</Provider>,
-	document.getElementById("root")
+  <Provider store={store}>
+    <BrowserRouter>
+      <PersistGate persistor={persistor}>
+        <App />
+      </PersistGate>
+    </BrowserRouter>
+  </Provider>,
+  document.getElementById("root")
 );

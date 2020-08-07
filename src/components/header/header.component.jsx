@@ -15,7 +15,7 @@ import "./header.style.scss";
 
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
-    <Link className="logo-container" to="/e-food-app/">
+    <Link className="logo-container" to="/e-food-app">
       <Logo className="logo" />
     </Link>
     <div className="options">
@@ -36,6 +36,7 @@ const Header = ({ currentUser, hidden }) => (
       )}
       <CartIcon />
     </div>
+
     {hidden ? null : <CartDropdown />}
   </div>
 );
