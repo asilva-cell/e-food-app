@@ -7,9 +7,9 @@ import CollectionItem from "../../components/collection-item/collection-item.com
 
 import "./collection.style.scss";
 
-const CollectionPage = ({ collection, calling }) => {
+const CollectionPage = ({ collection }) => {
   const { title, items } = collection;
-  console.log("I'm being called");
+
   return (
     <div className="collection-page">
       <h2 className="title">{title.toUpperCase()}</h2>
