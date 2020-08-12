@@ -33,18 +33,17 @@ $screen-lg-min: 500px;
   }
 
   .custom-button {
-    width: 80%;
-    opacity: 0.7;
-    position: absolute;
-    top: 60%;
+    width: 60%;
+     position: absolute;
+    top: 10%;
     display: none;
-  }
-  &:hover {
-    .image {
-      opacity: 0.8;
-      transform: scale(1.2);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+
+    @include lg {
+      top:60%
     }
+  }
+
+  &:hover {
     .custom-button {
       display: flex;
       opacity: 0.85;
