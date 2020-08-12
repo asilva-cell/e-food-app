@@ -1,0 +1,81 @@
+// large screens
+$screen-lg-min: 500px;
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+.collection-item {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+
+  .image-container {
+    width: auto;
+    height: 20vw;
+    align-items: center;
+    margin-bottom: 5%;
+
+    @include lg {
+      margin-bottom: 2%;
+      width: 22vw;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .custom-button {
+    width: 60%;
+     position: absolute;
+    top: 10%;
+    display: none;
+
+    @include lg {
+      top:60%
+    }
+  }
+
+  &:hover {
+    .custom-button {
+      display: flex;
+      opacity: 0.85;
+    }
+  }
+
+  .collection-footer {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+    padding: 0 2% 0 2%;
+    font-size: 0.8rem;
+
+    @include lg {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      font-size: 1rem;
+      height: 30px;
+    }
+
+    .name {
+      width: fit-content;
+      justify-self: center;
+      text-align: center;
+    }
+
+    .price {
+      width: fit-content;
+      justify-self: center;
+      text-align: center;
+    }
+  }
+}
